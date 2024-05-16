@@ -48,10 +48,10 @@ body {
 
 .header {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 820px;
+	height: 100vh;
+	text-align: center;
 	background-image: url('../images/landing.jpg');
 	background-size: cover;
 	background-position: 0 0;
@@ -169,8 +169,6 @@ body {
 	}
 }
 
-
-
 .flex-center {
 	margin-top: 80px;
 	width: 100%;
@@ -178,4 +176,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.green-background .icon-logo {
+	position: absolute;
+	top: 50px;
+	right: 50px;
 }
